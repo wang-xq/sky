@@ -1,0 +1,135 @@
+@charset "utf-8";
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.wai{
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 326px;
+    height: 400px;
+    background: rgba(0,0,0,0.5);
+    .top{
+        h2{
+            font-weight: bolder;
+            color: white;
+            padding-top: 26px;
+        }
+    }
+    .jine{
+        width: 282px;
+        padding-top: 20px;
+        display: flex;
+        justify-content: space-between;
+        p{
+            color: white;
+            font-size: 12px;
+        }
+    }
+    .qian{
+      position: relative;
+      margin-top: 6px;
+      width: 282px;
+      .input{
+        width: 100%;
+        height: 44px;
+        background-color: #fff;
+        margin-bottom:10px;
+        .left{
+          width:235px;
+          height: 44px;
+          border-right: 1px solid #ccc;
+          position: relative;
+          input{
+            width:235px;
+            height: 44px;
+            font-size: 14px;
+            color: #808080;
+          }
+          span{
+            font-size: 14px;
+            color: #808080;
+            position: absolute;
+            right: 1px;
+            top:12px;
+          }
+        }
+        .right{
+          width: 45px;
+          height: 44px;
+          position: relative;
+          cursor: pointer;
+          input{
+            width: 45px;
+            height: 44px;
+            cursor: pointer;
+          }
+          span{
+            position: absolute;
+            top:50%;
+            left:50%;
+            margin-left: -6.29px;
+            margin-top: -11px;
+            color: #808080;
+            text-align: center;
+            img{
+                width: 100%;
+            }
+          }
+          .s1,.s3{
+            display: block;
+          }
+          .s2,.s4{
+            display: none;
+          }
+        }
+      }
+      ul{
+        width: 282px;
+        border-top: 1px solid #ccc;
+        background-color: #fff;
+        position: absolute;
+        top: 45px;
+        left:0;
+        z-index: 111;
+        li{
+          width: 273px;
+          background-color: #fff;
+          padding: 5px;
+        }
+        li:hover{
+          background-color: #C6D6E7;
+          cursor: pointer;
+        }
+      }
+      .ul1{
+        display: none;
+      }
+      .ul2{
+        display: none;
+      }
+    }   
+    
+    .sou{
+        margin-top: 18px;
+        input{
+            width: 282px;
+            height: 44px;
+            background: #0094ef;
+            border: 1px solid #0094ef;
+            color: white;
+            font-size: 16px;
+        }
+    }
+    .dibu{
+        width: 282px;
+        margin-top: 18px;
+        p{
+            text-align: center;
+            color: white;
+            font-size: 12px;
+        }
+    }
+}
+
